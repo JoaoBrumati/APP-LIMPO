@@ -54,7 +54,7 @@ const App = () => {
       setMatches(response.data.partidas);
     } catch (error) {
       console.error("Erro ao buscar jogos da rodada:", error);
-      setError("Erro ao buscar jogos da rodada.");
+      setError("Erro ao buscar jogos da rodadas.");
     } finally {
       setLoadingMatches(false);
     }
