@@ -1,107 +1,139 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, Button, StyleSheet, ActivityIndicator } from 'react-native';
+import { View, Text, Button, StyleSheet, ActivityIndicator, Image, ScrollView } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import axios from 'axios';
 
-const App = () => {
-  const [teams, setTeams] = useState([]);
-  const [matches, setMatches] = useState([]);
-  const [loadingTeams, setLoadingTeams] = useState(true);
-  const [loadingMatches, setLoadingMatches] = useState(true);
-  const [error, setError] = useState(null);
-  const [selectedTeamId, setSelectedTeamId] = useState(null);
-  const [searchResults, setSearchResults] = useState([]);
+const API_URL = 'https://api.api-futebol.com.br/v1/campeonatos/10/rodadas/';
+const API_KEY = 'live_5d453807c87061191fdf1f3486d64f';
 
-  // Função para buscar os times da Série A do Campeonato Brasileiro
-  const fetchBrazilianSerieATeams = async () => {
+const App = () => {
+  const [rodadas, setRodadas] = useState([]); // Estado para armazenar as rodadas
+  const [matches, setMatches] = useState([]); // Estado para armazenar os jogos de uma rodada
+  const [loadingRodadas, setLoadingRodadas] = useState(true); // Controle de carregamento das rodadas
+  const [loadingMatches, setLoadingMatches] = useState(false); // Controle de carregamento dos jogos
+  const [error, setError] = useState(null);
+  const [selectedRodada, setSelectedRodada] = useState(null); // Rodada selecionada pelo usuário
+
+  // Cache para rodadas
+  let rodadasCache = null;
+
+  // Função para buscar as rodadas do campeonato
+  const fetchRodadas = async () => {
+    if (rodadasCache) {
+      setRodadas(rodadasCache);
+      setLoadingRodadas(false);
+      return;
+    }
+
     try {
-      const response = await axios.get('https://api.football-data.org/v4/competitions/BSA/teams', {
+      const response = await axios.get(API_URL, {
         headers: {
-          'X-Auth-Token': '2352a3a398d949e28fafacd25c8e6ebc',
-        },
+          'Authorization': `Bearer ${API_KEY}`
+        }
       });
-      setTeams(response.data.teams);
+      rodadasCache = response.data; // Armazena em cache
+      setRodadas(response.data);
     } catch (error) {
-      setError("Erro ao buscar times.");
+      console.error("Erro ao buscar rodadas:", error);
+      setError("Erro ao buscar rodadas.");
     } finally {
-      setLoadingTeams(false);
+      setLoadingRodadas(false);
     }
   };
 
-  // Função para buscar os próximos jogos com parâmetros
-  const fetchMatches = async () => {
-    const today = new Date();
-    const nextWeek = new Date();
-    nextWeek.setDate(today.getDate() + 7); // Uma semana a partir de hoje
-
-    const dateFrom = today.toISOString().split('T')[0]; // Data de hoje
-    const dateTo = nextWeek.toISOString().split('T')[0]; // Data de uma semana a partir de hoje
-
+  // Função para buscar os jogos de uma rodada selecionada
+  const fetchMatches = async (rodada) => {
+    setLoadingMatches(true);
     try {
-      const response = await axios.get('https://api.football-data.org/v4/matches', {
+      await new Promise(resolve => setTimeout(resolve, 2000)); // Atraso de 2 segundos
+      const response = await axios.get(`${API_URL}${rodada}`, {
         headers: {
-          'X-Auth-Token': '2352a3a398d949e28fafacd25c8e6ebc',
-        },
-        params: {
-          competitions: 'BSA', // Filtrar pela competição Série A
-          dateFrom: dateFrom, // Data de início
-          dateTo: dateTo, // Data de fim
-        },
+          'Authorization': `Bearer ${API_KEY}`
+        }
       });
-      setMatches(response.data.matches);
+      setMatches(response.data.partidas);
     } catch (error) {
-      setError("Erro ao buscar jogos.");
+      console.error("Erro ao buscar jogos da rodada:", error);
+      setError("Erro ao buscar jogos da rodada.");
     } finally {
       setLoadingMatches(false);
     }
   };
 
   useEffect(() => {
-    fetchBrazilianSerieATeams();
-    fetchMatches();
+    fetchRodadas(); // Busca as rodadas ao carregar o componente
   }, []);
 
   const handleSearch = () => {
-    if (selectedTeamId) {
-      const teamMatches = matches.filter(match =>
-        match.homeTeam.id === selectedTeamId || match.awayTeam.id === selectedTeamId
-      );
-      setSearchResults(teamMatches);
+    if (selectedRodada) {
+      fetchMatches(selectedRodada); // Busca os jogos da rodada selecionada
+    }
+  };
+
+  // Função para converter data de DD/MM/YYYY para YYYY-MM-DD
+  const convertDate = (dateString) => {
+    const [day, month, year] = dateString.split('/');
+    return `${year}-${month}-${day}`; // Converte para formato ISO
+  };
+
+  // Função para formatar a data no formato DD/MM/YYYY
+  const formatDate = (dateString) => {
+    const isoDate = convertDate(dateString);
+    const date = new Date(isoDate);
+
+    // Verifica se a data é válida
+    if (!isNaN(date.getTime())) {
+      return date.toLocaleDateString('pt-BR'); // Formato DD/MM/YYYY
     } else {
-      setSearchResults([]);
+      return "Data inválida"; // Caso a data não seja válida
     }
   };
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Selecione um time:</Text>
+      <Text style={styles.title}>Selecione uma rodada:</Text>
       <Picker
-        selectedValue={selectedTeamId}
+        selectedValue={selectedRodada}
         style={styles.picker}
-        onValueChange={(itemValue) => setSelectedTeamId(itemValue)}
+        onValueChange={(itemValue) => setSelectedRodada(itemValue)}
       >
-        <Picker.Item label="Selecione um time" value={null} />
-        {teams.map(team => (
-          <Picker.Item key={team.id} label={team.name} value={team.id} />
+        <Picker.Item label="Selecione uma rodada" value={null} />
+        {rodadas.map(rodada => (
+          <Picker.Item key={rodada.rodada} label={`Rodada ${rodada.rodada}`} value={rodada.rodada} />
         ))}
       </Picker>
       <Button title="Pesquisar" onPress={handleSearch} />
 
-      {loadingTeams || loadingMatches ? (
-        <ActivityIndicator size="large" color="#0000ff" />
-      ) : error ? (
-        <Text style={styles.text}>{error}</Text>
-      ) : searchResults.length === 0 ? (
-        <Text style={styles.text}>Nenhum jogo encontrado para este time.</Text>
-      ) : (
-        searchResults.map(match => (
-          <View key={match.id} style={styles.matchContainer}>
-            <Text style={styles.text}>
-              {match.homeTeam.name} vs {match.awayTeam.name} - {new Date(match.date).toLocaleDateString()}
-            </Text>
-          </View>
-        ))
-      )}
+      <ScrollView>
+        {loadingRodadas || loadingMatches ? (
+          <ActivityIndicator size="large" color="#0000ff" />
+        ) : error ? (
+          <Text style={styles.text}>{error}</Text>
+        ) : matches.length === 0 ? (
+          <Text style={styles.text}>Nenhum jogo encontrado para esta rodada.</Text>
+        ) : (
+          matches.map((match, index) => (
+            <View 
+              key={match.partida_id} 
+              style={[styles.matchContainer, { backgroundColor: index % 2 === 0 ? '#f0f0f0' : '#ffffff' }]}
+            >
+              <View style={styles.teamContainer}>
+                <Image source={{ uri: match.time_mandante.escudo }} style={styles.teamLogo} />
+                <Text style={styles.text}>
+                  {match.time_mandante.nome_popular} vs {match.time_visitante.nome_popular}
+                </Text>
+                <Image source={{ uri: match.time_visitante.escudo }} style={styles.teamLogo} />
+              </View>
+              <Text style={styles.text}>
+                Data: {formatDate(match.data_realizacao)} - Horário: {match.hora_realizacao}
+              </Text>
+              <Text style={styles.text}>
+                Estádio: {match.estadio.nome_popular}
+              </Text>
+            </View>
+          ))
+        )}
+      </ScrollView>
     </View>
   );
 };
@@ -114,7 +146,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 18,
-    marginBottom: 10,
+    marginBottom: 20,
+    marginTop: 20,
   },
   text: {
     marginBottom: 10,
@@ -122,11 +155,23 @@ const styles = StyleSheet.create({
   },
   matchContainer: {
     marginTop: 10,
+    padding: 10,
+    borderRadius: 5,
   },
   picker: {
     height: 50,
     width: '100%',
     marginBottom: 20,
+  },
+  teamContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  teamLogo: {
+    width: 30,
+    height: 30,
+    marginRight: 10,
   },
 });
 

@@ -1,0 +1,103 @@
+{
+    "rodada": 30,
+    "partidas": [
+        {
+            "time_mandante": {
+                "time_id": 57,
+                "nome_popular": "São Paulo",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a23c311.svg"
+            },
+            "time_visitante": {
+                "time_id": 23,
+                "nome_popular": "Vasco",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3490f1e73.svg"
+            },
+            "placar_mandante": 3,
+            "placar_visitante": 0
+        },
+        {
+            "time_mandante": {
+                "time_id": 131,
+                "nome_popular": "Fortaleza",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34c76d067.svg"
+            },
+            "time_visitante": {
+                "time_id": 30,
+                "nome_popular": "Atlético-MG",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3494f3380.svg"
+            },
+            "placar_mandante": 1,
+            "placar_visitante": 1
+        },
+        {
+            "time_mandante": {
+                "time_id": 18,
+                "nome_popular": "Flamengo",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d348e3f815.svg"
+            },
+            "time_visitante": {
+                "time_id": 26,
+                "nome_popular": "Fluminense",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3492a6e0b.svg"
+            },
+            "placar_mandante": 0,
+            "placar_visitante": 2
+        },
+        {
+            "time_mandante": {
+                "time_id": 65,
+                "nome_popular": "Corinthians",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a68419f.svg"
+            },
+            "time_visitante": {
+                "time_id": 185,
+                "nome_popular": "Athletico-PR",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34e1b8948.svg"
+            },
+            "placar_mandante": 5,
+            "placar_visitante": 2
+        },
+        {
+            "time_mandante": {
+                "time_id": 98,
+                "nome_popular": "Atlético-GO",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34b9174a3.svg"
+            },
+            "time_visitante": {
+                "time_id": 204,
+                "nome_popular": "Cuiabá",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34ebcdafa.svg"
+            },
+            "placar_mandante": 0,
+            "placar_visitante": 0
+        },
+        {
+            "time_mandante": {
+                "time_id": 22,
+                "nome_popular": "Botafogo",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d349052558.svg"
+            },
+            "time_visitante": {
+                "time_id": 1,
+                "nome_popular": "Criciúma",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3482a8351.svg"
+            },
+            "placar_mandante": 1,
+            "placar_visitante": 1
+        },
+        {
+            "time_mandante": {
+                "time_id": 37,
+                "nome_popular": "Cruzeiro",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34984830b.svg"
+            },
+            "time_visitante": {
+                "time_id": 68,
+                "nome_popular": "Bahia",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a8b6bd8.svg"
+            },
+            "placar_mandante": 1,
+            "placar_visitante": 1
+        }
+    ]
+}

@@ -1,0 +1,1067 @@
+[
+    {
+        "campeonato_id": 22,
+        "nome": "Campeonato Baiano",
+        "slug": "campeonato-baiano",
+        "nome_popular": "Baianão",
+        "edicao_atual": {
+            "edicao_id": 103,
+            "temporada": "2024",
+            "nome": "Campeonato Baiano 2024",
+            "nome_popular": "Baianão 2024",
+            "slug": "campeonato-baiano-2024"
+        },
+        "fase_atual": {
+            "fase_id": 478,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/22/fases/478"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-baiano.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/22"
+    },
+    {
+        "campeonato_id": 10,
+        "nome": "Campeonato Brasileiro",
+        "slug": "campeonato-brasileiro",
+        "nome_popular": "Brasileirão",
+        "edicao_atual": {
+            "edicao_id": 110,
+            "temporada": "2024",
+            "nome": "Campeonato Brasileiro 2024",
+            "nome_popular": "Brasileirão 2024",
+            "slug": "campeonato-brasileiro-2024"
+        },
+        "fase_atual": {
+            "fase_id": 506,
+            "nome": "Fase Única",
+            "slug": "fase-unica",
+            "tipo": "pontos-corridos",
+            "_link": "/v1/campeonatos/10/fases/506"
+        },
+        "rodada_atual": {
+            "nome": "30ª Rodada",
+            "slug": "30a-rodada",
+            "rodada": 30,
+            "status": "agendada"
+        },
+        "status": "andamento",
+        "tipo": "Pontos Corridos",
+        "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-seriea.png",
+        "regiao": "nacional",
+        "_link": "/v1/campeonatos/10"
+    },
+    {
+        "campeonato_id": 30,
+        "nome": "Campeonato Brasileiro Feminino",
+        "slug": "campeonato-brasileiro-feminino",
+        "nome_popular": "Brasileirão Feminino",
+        "edicao_atual": {
+            "edicao_id": 109,
+            "temporada": "2024",
+            "nome": "Campeonato Brasileiro Feminino 2024",
+            "nome_popular": "Brasileirão Feminino 2024",
+            "slug": "campeonato-brasileiro-feminino-2024"
+        },
+        "fase_atual": {
+            "fase_id": 505,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/30/fases/505"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-seriea.png",
+        "regiao": "nacional",
+        "_link": "/v1/campeonatos/30"
+    },
+    {
+        "campeonato_id": 31,
+        "nome": "Campeonato Brasileiro Feminino A2",
+        "slug": "campeonato-brasileiro-feminino-a2",
+        "nome_popular": "Brasileirão Feminino A2",
+        "edicao_atual": {
+            "edicao_id": 85,
+            "temporada": "2023",
+            "nome": "Campeonato Brasileiro Feminino A2 2023",
+            "nome_popular": "Brasileirão Feminino A2 2023",
+            "slug": "campeonato-brasileiro-feminino-a2-2023"
+        },
+        "fase_atual": {
+            "fase_id": 396,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/31/fases/396"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-seriea.png",
+        "regiao": "nacional",
+        "_link": "/v1/campeonatos/31"
+    },
+    {
+        "campeonato_id": 14,
+        "nome": "Campeonato Brasileiro Série B",
+        "slug": "campeonato-brasileiro-serie-b",
+        "nome_popular": "Brasileirão Série B",
+        "edicao_atual": {
+            "edicao_id": 119,
+            "temporada": "2024",
+            "nome": "Campeonato Brasileiro Série B 2024",
+            "nome_popular": "Brasileirão Série B 2024",
+            "slug": "campeonato-brasileiro-serie-b-2024"
+        },
+        "fase_atual": {
+            "fase_id": 548,
+            "nome": "Fase Única",
+            "slug": "fase-unica",
+            "tipo": "pontos-corridos",
+            "_link": "/v1/campeonatos/14/fases/548"
+        },
+        "rodada_atual": {
+            "nome": "32ª Rodada",
+            "slug": "32a-rodada",
+            "rodada": 32,
+            "status": "agendada"
+        },
+        "status": "andamento",
+        "tipo": "Pontos Corridos",
+        "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-serieb.png",
+        "regiao": "nacional",
+        "_link": "/v1/campeonatos/14"
+    },
+    {
+        "campeonato_id": 16,
+        "nome": "Campeonato Brasileiro Série C",
+        "slug": "campeonato-brasileiro-serie-c",
+        "nome_popular": "Brasileirão Série C",
+        "edicao_atual": {
+            "edicao_id": 118,
+            "temporada": "2024",
+            "nome": "Campeonato Brasileiro Série C 2024",
+            "nome_popular": "Brasileirão Série C 2024",
+            "slug": "campeonato-brasileiro-serie-c-2024"
+        },
+        "fase_atual": {
+            "fase_id": 547,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/16/fases/547"
+        },
+        "rodada_atual": null,
+        "status": "andamento",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-seriec.png",
+        "regiao": "nacional",
+        "_link": "/v1/campeonatos/16"
+    },
+    {
+        "campeonato_id": 17,
+        "nome": "Campeonato Brasileiro Série D",
+        "slug": "campeonato-brasileiro-serie-d",
+        "nome_popular": "Brasileirão Série D",
+        "edicao_atual": {
+            "edicao_id": 120,
+            "temporada": "2024",
+            "nome": "Campeonato Brasileiro Série D 2024",
+            "nome_popular": "Brasileirão Série D 2024",
+            "slug": "campeonato-brasileiro-serie-d-2024"
+        },
+        "fase_atual": {
+            "fase_id": 554,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/17/fases/554"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-seried.png",
+        "regiao": "nacional",
+        "_link": "/v1/campeonatos/17"
+    },
+    {
+        "campeonato_id": 34,
+        "nome": "Campeonato Brasileiro Sub-17",
+        "slug": "campeonato-brasileiro-sub-17",
+        "nome_popular": "Brasileirão Sub-17",
+        "edicao_atual": {
+            "edicao_id": 88,
+            "temporada": "2023",
+            "nome": "Campeonato Brasileiro Sub-17 2023",
+            "nome_popular": "Brasileirão Sub-17 2023",
+            "slug": "campeonato-brasileiro-sub-17-2023"
+        },
+        "fase_atual": {
+            "fase_id": 409,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/34/fases/409"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-seriea.png",
+        "regiao": "nacional",
+        "_link": "/v1/campeonatos/34"
+    },
+    {
+        "campeonato_id": 33,
+        "nome": "Campeonato Brasileiro Sub-20",
+        "slug": "campeonato-brasileiro-sub-20",
+        "nome_popular": "Brasileirão Sub-20",
+        "edicao_atual": {
+            "edicao_id": 112,
+            "temporada": "2024",
+            "nome": "Campeonato Brasileiro Sub-20 2024",
+            "nome_popular": "Brasileirão Sub-20 2024",
+            "slug": "campeonato-brasileiro-sub-20-2024"
+        },
+        "fase_atual": {
+            "fase_id": 517,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/33/fases/517"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-seriea.png",
+        "regiao": "nacional",
+        "_link": "/v1/campeonatos/33"
+    },
+    {
+        "campeonato_id": 32,
+        "nome": "Campeonato Capixaba",
+        "slug": "campeonato-capixaba",
+        "nome_popular": "Capixabão",
+        "edicao_atual": {
+            "edicao_id": 114,
+            "temporada": "2024",
+            "nome": "Campeonato Capixaba 2024",
+            "nome_popular": "Capixaba 2024",
+            "slug": "campeonato-capixaba-2024"
+        },
+        "fase_atual": {
+            "fase_id": 526,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/32/fases/526"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-capixaba.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/32"
+    },
+    {
+        "campeonato_id": 6,
+        "nome": "Campeonato Carioca",
+        "slug": "campeonato-carioca",
+        "nome_popular": "Carioca",
+        "edicao_atual": {
+            "edicao_id": 92,
+            "temporada": "2024",
+            "nome": "Campeonato Carioca 2024",
+            "nome_popular": "Carioca 2024",
+            "slug": "campeonato-carioca-2024"
+        },
+        "fase_atual": {
+            "fase_id": 424,
+            "nome": "Final",
+            "slug": "taca-gb-final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/6/fases/424"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/carioca.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/6"
+    },
+    {
+        "campeonato_id": 13,
+        "nome": "Campeonato Catarinense",
+        "slug": "campeonato-catarinense",
+        "nome_popular": "Catarinense",
+        "edicao_atual": {
+            "edicao_id": 96,
+            "temporada": "2024",
+            "nome": "Campeonato Catarinense 2024",
+            "nome_popular": "Catarinense 2024",
+            "slug": "campeonato-catarinense-2024"
+        },
+        "fase_atual": {
+            "fase_id": 449,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/13/fases/449"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-catarinense.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/13"
+    },
+    {
+        "campeonato_id": 23,
+        "nome": "Campeonato Cearense",
+        "slug": "campeonato-cearense",
+        "nome_popular": "Cearense",
+        "edicao_atual": {
+            "edicao_id": 104,
+            "temporada": "2024",
+            "nome": "Campeonato Cearense 2024",
+            "nome_popular": "Cearense 2024",
+            "slug": "campeonato-cearense-2024"
+        },
+        "fase_atual": {
+            "fase_id": 482,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/23/fases/482"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-cearense.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/23"
+    },
+    {
+        "campeonato_id": 11,
+        "nome": "Campeonato Gaúcho",
+        "slug": "campeonato-gaucho",
+        "nome_popular": "Gaúchão",
+        "edicao_atual": {
+            "edicao_id": 97,
+            "temporada": "2024",
+            "nome": "Campeonato Gaúcho 2024",
+            "nome_popular": "Gaúcho 2024",
+            "slug": "campeonato-gaucho-2024"
+        },
+        "fase_atual": {
+            "fase_id": 453,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/11/fases/453"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-gaucho.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/11"
+    },
+    {
+        "campeonato_id": 21,
+        "nome": "Campeonato Goiano",
+        "slug": "campeonato-goiano",
+        "nome_popular": "Goianão",
+        "edicao_atual": {
+            "edicao_id": 105,
+            "temporada": "2024",
+            "nome": "Campeonato Goiano 2024",
+            "nome_popular": "Goianão 2024",
+            "slug": "campeonato-goiano-2024"
+        },
+        "fase_atual": {
+            "fase_id": 486,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/21/fases/486"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-goiano.jpeg",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/21"
+    },
+    {
+        "campeonato_id": 28,
+        "nome": "Campeonato Mato-Grossense",
+        "slug": "campeonato-mato-grossense",
+        "nome_popular": "Mato-Grossense",
+        "edicao_atual": {
+            "edicao_id": 113,
+            "temporada": "2024",
+            "nome": "Campeonato Mato-Grossense 2024",
+            "nome_popular": "Mato-Grossense 2024",
+            "slug": "mato-grossense-2024"
+        },
+        "fase_atual": {
+            "fase_id": 522,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/28/fases/522"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-mato-grossense.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/28"
+    },
+    {
+        "campeonato_id": 12,
+        "nome": "Campeonato Mineiro",
+        "slug": "campeonato-mineiro",
+        "nome_popular": "Mineiro",
+        "edicao_atual": {
+            "edicao_id": 100,
+            "temporada": "2024",
+            "nome": "Campeonato Mineiro 2024",
+            "nome_popular": "Mineiro 2024",
+            "slug": "campeonato-mineiro-2024"
+        },
+        "fase_atual": {
+            "fase_id": 465,
+            "nome": "Repescagem",
+            "slug": "repescagem",
+            "tipo": "grupos",
+            "_link": "/v1/campeonatos/12/fases/465"
+        },
+        "rodada_atual": {
+            "nome": "1ª Rodada",
+            "slug": "1a-rodada",
+            "rodada": 1,
+            "status": "encerrada"
+        },
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-mineiro.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/12"
+    },
+    {
+        "campeonato_id": 27,
+        "nome": "Campeonato Paraense",
+        "slug": "campeonato-paraense",
+        "nome_popular": "Paraense",
+        "edicao_atual": {
+            "edicao_id": 98,
+            "temporada": "2024",
+            "nome": "Campeonato Paraense 2024",
+            "nome_popular": "Paraense 2024",
+            "slug": "paraense-2024"
+        },
+        "fase_atual": {
+            "fase_id": 457,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/27/fases/457"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paraense.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/27"
+    },
+    {
+        "campeonato_id": 26,
+        "nome": "Campeonato Paranaense",
+        "slug": "campeonato-paranaense",
+        "nome_popular": "Paranaense",
+        "edicao_atual": {
+            "edicao_id": 99,
+            "temporada": "2024",
+            "nome": "Campeonato Paranaense 2024",
+            "nome_popular": "Paranaense 2024",
+            "slug": "paranaense-2024"
+        },
+        "fase_atual": {
+            "fase_id": 461,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/26/fases/461"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paranaense.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/26"
+    },
+    {
+        "campeonato_id": 9,
+        "nome": "Campeonato Paulista",
+        "slug": "campeonato-paulista",
+        "nome_popular": "Paulistão",
+        "edicao_atual": {
+            "edicao_id": 94,
+            "temporada": "2024",
+            "nome": "Campeonato Paulista 2024",
+            "nome_popular": "Paulista 2024",
+            "slug": "campeonato-paulista-2024"
+        },
+        "fase_atual": {
+            "fase_id": 437,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/9/fases/437"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paulista.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/9"
+    },
+    {
+        "campeonato_id": 40,
+        "nome": "Campeonato Paulista A2",
+        "slug": "campeonato-paulista-a2",
+        "nome_popular": "Paulistão A2",
+        "edicao_atual": {
+            "edicao_id": 101,
+            "temporada": "2024",
+            "nome": "Campeonato Paulista A2 2024",
+            "nome_popular": "Paulista A2 2024",
+            "slug": "campeonato-paulista-a2-2024"
+        },
+        "fase_atual": {
+            "fase_id": 471,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/40/fases/471"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paulista.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/40"
+    },
+    {
+        "campeonato_id": 41,
+        "nome": "Campeonato Paulista A3",
+        "slug": "campeonato-paulista-a3",
+        "nome_popular": "Paulistão A3",
+        "edicao_atual": {
+            "edicao_id": 102,
+            "temporada": "2024",
+            "nome": "Campeonato Paulista A3 2024",
+            "nome_popular": "Paulista A2 2024",
+            "slug": "campeonato-paulista-a3-2024"
+        },
+        "fase_atual": {
+            "fase_id": 475,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/41/fases/475"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paulista.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/41"
+    },
+    {
+        "campeonato_id": 36,
+        "nome": "Campeonato Paulista Feminino",
+        "slug": "campeonato-paulista-feminino",
+        "nome_popular": "Paulistão Feminino",
+        "edicao_atual": {
+            "edicao_id": 124,
+            "temporada": "2024",
+            "nome": "Campeonato Paulista Feminino 2024",
+            "nome_popular": "Paulistão Feminino 2024",
+            "slug": "campeonato-paulista-feminino-2024"
+        },
+        "fase_atual": {
+            "fase_id": 573,
+            "nome": "Copa Paulista (Semi-final)",
+            "slug": "copa-paulista-semi-final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/36/fases/573"
+        },
+        "rodada_atual": null,
+        "status": "andamento",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paulista.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/36"
+    },
+    {
+        "campeonato_id": 39,
+        "nome": "Campeonato Paulista Sub-15",
+        "slug": "campeonato-paulista-sub-15",
+        "nome_popular": "Paulistão Sub-15",
+        "edicao_atual": {
+            "edicao_id": 116,
+            "temporada": "2024",
+            "nome": "Campeonato Paulista Sub-15 2024",
+            "nome_popular": "Paulista Sub-15 2024",
+            "slug": "campeonato-paulista-sub-15-2024"
+        },
+        "fase_atual": {
+            "fase_id": 535,
+            "nome": "Terceira Fase",
+            "slug": "terceira-fase",
+            "tipo": "grupos",
+            "_link": "/v1/campeonatos/39/fases/535"
+        },
+        "rodada_atual": {
+            "nome": "22ª Rodada",
+            "slug": "22a-rodada",
+            "rodada": 22,
+            "status": "agendada"
+        },
+        "status": "andamento",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paulista.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/39"
+    },
+    {
+        "campeonato_id": 38,
+        "nome": "Campeonato Paulista Sub-17",
+        "slug": "campeonato-paulista-sub-17",
+        "nome_popular": "Paulistão Sub-17",
+        "edicao_atual": {
+            "edicao_id": 115,
+            "temporada": "2024",
+            "nome": "Campeonato Paulista Sub-17 2024",
+            "nome_popular": "Paulista Sub-17 2024",
+            "slug": "campeonato-paulista-sub-17-2024"
+        },
+        "fase_atual": {
+            "fase_id": 530,
+            "nome": "Quartas de Final",
+            "slug": "quartas-de-final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/38/fases/530"
+        },
+        "rodada_atual": null,
+        "status": "andamento",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paulista.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/38"
+    },
+    {
+        "campeonato_id": 37,
+        "nome": "Campeonato Paulista Sub-20",
+        "slug": "campeonato-paulista-sub-20",
+        "nome_popular": "Paulistão Sub-20",
+        "edicao_atual": {
+            "edicao_id": 117,
+            "temporada": "2024",
+            "nome": "Campeonato Paulista Sub-20 2024",
+            "nome_popular": "Paulista Sub-20 2024",
+            "slug": "campeonato-paulista-sub-20-2024"
+        },
+        "fase_atual": {
+            "fase_id": 542,
+            "nome": "Quartas de Final",
+            "slug": "quartas-de-final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/37/fases/542"
+        },
+        "rodada_atual": null,
+        "status": "andamento",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paulista.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/37"
+    },
+    {
+        "campeonato_id": 25,
+        "nome": "Campeonato Pernambucano",
+        "slug": "campeonato-pernambucano",
+        "nome_popular": "Pernambucano",
+        "edicao_atual": {
+            "edicao_id": 106,
+            "temporada": "2024",
+            "nome": "Campeonato Pernambucano 2024",
+            "nome_popular": "Pernambucano 2024",
+            "slug": "pernambucano-2024"
+        },
+        "fase_atual": {
+            "fase_id": 490,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/25/fases/490"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-pernambucano.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/25"
+    },
+    {
+        "campeonato_id": 20,
+        "nome": "Champions League",
+        "slug": "champions-league",
+        "nome_popular": "Liga dos Campeões",
+        "edicao_atual": {
+            "edicao_id": 123,
+            "temporada": "2024-2025",
+            "nome": "Champions League 2024-2025",
+            "nome_popular": "Liga dos Campeões 2024-2025",
+            "slug": "champions-league-2024-2025"
+        },
+        "fase_atual": {
+            "fase_id": 566,
+            "nome": "Fase de Grupos",
+            "slug": "fase-de-grupos",
+            "tipo": "grupos",
+            "_link": "/v1/campeonatos/20/fases/566"
+        },
+        "rodada_atual": null,
+        "status": "andamento",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/championsleague.png",
+        "regiao": "internacional",
+        "_link": "/v1/campeonatos/20"
+    },
+    {
+        "campeonato_id": 18,
+        "nome": "Copa América",
+        "slug": "copa-america",
+        "nome_popular": "Copa América",
+        "edicao_atual": {
+            "edicao_id": 121,
+            "temporada": "2024",
+            "nome": "Copa América 2024",
+            "nome_popular": "Copa América 2024",
+            "slug": "copa-america-2024"
+        },
+        "fase_atual": {
+            "fase_id": 559,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/18/fases/559"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/copa-america.png",
+        "regiao": "internacional",
+        "_link": "/v1/campeonatos/18"
+    },
+    {
+        "campeonato_id": 2,
+        "nome": "Copa do Brasil",
+        "slug": "copa-do-brasil",
+        "nome_popular": "Copa do Brasil",
+        "edicao_atual": {
+            "edicao_id": 108,
+            "temporada": "2024",
+            "nome": "Copa do Brasil 2024",
+            "nome_popular": "Copa do Brasil 2024",
+            "slug": "copa-do-brasil-2024"
+        },
+        "fase_atual": {
+            "fase_id": 500,
+            "nome": "Semi Final",
+            "slug": "semi-final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/2/fases/500"
+        },
+        "rodada_atual": null,
+        "status": "andamento",
+        "tipo": "Mata-Mata",
+        "logo": "https://api.api-futebol.com.br/images/competicao/copa-do-brasil.png",
+        "regiao": "nacional",
+        "_link": "/v1/campeonatos/2"
+    },
+    {
+        "campeonato_id": 24,
+        "nome": "Copa do Mundo",
+        "slug": "copa-do-mundo",
+        "nome_popular": "Copa do Mundo",
+        "edicao_atual": {
+            "edicao_id": 43,
+            "temporada": "Catar 2022",
+            "nome": "Copa do Mundo Catar 2022",
+            "nome_popular": "Copa do Mundo Catar 2022",
+            "slug": "copa-do-mundo-catar-2022"
+        },
+        "fase_atual": {
+            "fase_id": 205,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/24/fases/205"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/copa-do-mundo-2022.png",
+        "regiao": "internacional",
+        "_link": "/v1/campeonatos/24"
+    },
+    {
+        "campeonato_id": 43,
+        "nome": "Copa do Mundo Feminina",
+        "slug": "copa-do-mundo-feminina",
+        "nome_popular": "Copa do Mundo Feminina",
+        "edicao_atual": {
+            "edicao_id": 77,
+            "temporada": "2023",
+            "nome": "Copa do Mundo Feminina 2023",
+            "nome_popular": "Copa do Mundo Feminina 2023",
+            "slug": "copa-do-mundo-feminina-2023"
+        },
+        "fase_atual": {
+            "fase_id": 359,
+            "nome": "Disputa 3o lugar",
+            "slug": "disputa-3o-lugar",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/43/fases/359"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/copa-do-mundo-2023-feminina.png",
+        "regiao": "internacional",
+        "_link": "/v1/campeonatos/43"
+    },
+    {
+        "campeonato_id": 15,
+        "nome": "Copa do Nordeste",
+        "slug": "copa-do-nordeste",
+        "nome_popular": "Copa do Nordeste",
+        "edicao_atual": {
+            "edicao_id": 107,
+            "temporada": "2024",
+            "nome": "Copa do Nordeste 2024",
+            "nome_popular": "Copa do Nordeste 2024",
+            "slug": "copa-do-nordeste-2024"
+        },
+        "fase_atual": {
+            "fase_id": 494,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/15/fases/494"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/copa-do-nordeste.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/15"
+    },
+    {
+        "campeonato_id": 7,
+        "nome": "Copa Libertadores da América",
+        "slug": "copa-libertadores-da-america",
+        "nome_popular": "Libertadores",
+        "edicao_atual": {
+            "edicao_id": 95,
+            "temporada": "2024",
+            "nome": "Copa Libertadores da América 2024",
+            "nome_popular": "Libertadores 2024",
+            "slug": "copa-libertadores-da-america-2024"
+        },
+        "fase_atual": {
+            "fase_id": 444,
+            "nome": "Semi Final",
+            "slug": "semi-final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/7/fases/444"
+        },
+        "rodada_atual": null,
+        "status": "andamento",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/libertadores.png",
+        "regiao": "continental",
+        "_link": "/v1/campeonatos/7"
+    },
+    {
+        "campeonato_id": 42,
+        "nome": "Copa Paulista",
+        "slug": "copa-paulista",
+        "nome_popular": "Copa Paulista",
+        "edicao_atual": {
+            "edicao_id": 87,
+            "temporada": "2023",
+            "nome": "Copa Paulista 2023",
+            "nome_popular": "Copa Paulista 2023",
+            "slug": "copa-paulista-2023"
+        },
+        "fase_atual": {
+            "fase_id": 405,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/42/fases/405"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/campeonato-paulista.png",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/42"
+    },
+    {
+        "campeonato_id": 29,
+        "nome": "Copa São Paulo de Futebol Jr",
+        "slug": "copa-sao-paulo-de-futebol-jr",
+        "nome_popular": "Copinha",
+        "edicao_atual": {
+            "edicao_id": 93,
+            "temporada": "2024",
+            "nome": "Copa São Paulo de Futebol Jr 2024",
+            "nome_popular": "Copinha 2024",
+            "slug": "copinha-2024"
+        },
+        "fase_atual": {
+            "fase_id": 433,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/29/fases/433"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/copinha.jpeg",
+        "regiao": "regional",
+        "_link": "/v1/campeonatos/29"
+    },
+    {
+        "campeonato_id": 8,
+        "nome": "Copa Sulamericana",
+        "slug": "copa-sulamericana",
+        "nome_popular": "Sulamericana",
+        "edicao_atual": {
+            "edicao_id": 111,
+            "temporada": "2024",
+            "nome": "Copa Sulamericana 2024",
+            "nome_popular": "Sulamericana 2024",
+            "slug": "copa-sul-americana-2024"
+        },
+        "fase_atual": {
+            "fase_id": 512,
+            "nome": "Semi Final",
+            "slug": "semi-final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/8/fases/512"
+        },
+        "rodada_atual": null,
+        "status": "andamento",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/sulamericana.png",
+        "regiao": "continental",
+        "_link": "/v1/campeonatos/8"
+    },
+    {
+        "campeonato_id": 44,
+        "nome": "Eliminatórias Copa do Mundo - América do Sul",
+        "slug": "eliminatorias-copa-do-mundo-america-do-sul",
+        "nome_popular": "Eliminatórias Copa do Mundo - América do Sul",
+        "edicao_atual": {
+            "edicao_id": 90,
+            "temporada": "2023-2025",
+            "nome": "Eliminatórias Copa do Mundo - América do Sul 2023-2025",
+            "nome_popular": "Eliminatórias Copa do Mundo - América do Sul 2023-2025",
+            "slug": "eliminatorias-copa-do-mundo-america-do-sul-2023-2025"
+        },
+        "fase_atual": {
+            "fase_id": 416,
+            "nome": "Fase Única",
+            "slug": "fase-unica",
+            "tipo": "pontos-corridos",
+            "_link": "/v1/campeonatos/44/fases/416"
+        },
+        "rodada_atual": {
+            "nome": "11ª Rodada",
+            "slug": "11a-rodada",
+            "rodada": 11,
+            "status": "agendada"
+        },
+        "status": "andamento",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/eliminatorias-copa-america-sul.png",
+        "regiao": "internacional",
+        "_link": "/v1/campeonatos/44"
+    },
+    {
+        "campeonato_id": 19,
+        "nome": "Eurocopa",
+        "slug": "eurocopa",
+        "nome_popular": "Eurocopa",
+        "edicao_atual": {
+            "edicao_id": 122,
+            "temporada": "2024",
+            "nome": "Eurocopa 2024",
+            "nome_popular": "Eurocopa 2024",
+            "slug": "eurocopa-2024"
+        },
+        "fase_atual": {
+            "fase_id": 564,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/19/fases/564"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/eurocopa.png",
+        "regiao": "internacional",
+        "_link": "/v1/campeonatos/19"
+    },
+    {
+        "campeonato_id": 45,
+        "nome": "Mundial de Clubes",
+        "slug": "mundial-de-clubes",
+        "nome_popular": "Mundial de Clubes",
+        "edicao_atual": {
+            "edicao_id": 91,
+            "temporada": "2023",
+            "nome": "Mundial de Clubes 2023",
+            "nome_popular": "Mundial de Clubes 2023",
+            "slug": "mundial-de-clubes-2023"
+        },
+        "fase_atual": {
+            "fase_id": 421,
+            "nome": "Final",
+            "slug": "final",
+            "tipo": "mata-mata",
+            "_link": "/v1/campeonatos/45/fases/421"
+        },
+        "rodada_atual": null,
+        "status": "finalizado",
+        "tipo": "Misto",
+        "logo": "https://api.api-futebol.com.br/images/competicao/mundial-clubes.png",
+        "regiao": "internacional",
+        "_link": "/v1/campeonatos/45"
+    }
+]
